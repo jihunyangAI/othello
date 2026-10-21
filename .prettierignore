@@ -1,0 +1,11 @@
+node_modules/
+dist/
+.npm-cache/
+.playwright-browsers/
+.verification-install/
+package-lock.json
+playwright-report/
+test-results/
+.omc/
+memory-bank/
+AGENT.md

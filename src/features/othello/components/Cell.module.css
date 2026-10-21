@@ -1,0 +1,47 @@
+.cell {
+  padding: 0;
+  border: 0;
+  aspect-ratio: 1;
+  background: var(--color-felt);
+  display: grid;
+  place-items: center;
+  position: relative;
+  min-width: 0;
+  touch-action: manipulation;
+}
+.cell:hover {
+  background: #207662;
+}
+.cell:focus-visible {
+  z-index: 1;
+  outline: 3px solid #ffe0a4;
+  outline-offset: -4px;
+  box-shadow: inset 0 0 0 5px #172827;
+}
+.disc {
+  display: block;
+  width: 79%;
+  height: 79%;
+  border-radius: 50%;
+}
+.black {
+  background: radial-gradient(circle at 34% 25%, #4c5554, #111b1a 65%);
+  border: 1px solid #0b1514;
+  box-shadow:
+    0 3px 2px #082d2780,
+    inset 0 1px 1px #77817c;
+}
+.white {
+  background: radial-gradient(circle at 34% 25%, #fff, #e5e9e2 70%);
+  border: 1px solid #cfdbd2;
+  box-shadow:
+    0 3px 2px #082d2780,
+    inset 0 -2px 2px #bdc9be;
+}
+.hint {
+  width: 22%;
+  height: 22%;
+  border: 2px solid #d0e5d4;
+  border-radius: 50%;
+  background: #d0e5d422;
+}
