@@ -2,6 +2,8 @@
 
 HTML, CSS, JavaScript와 React 함수 컴포넌트로 만든 동일 기기 2인 오델로 게임입니다. 합법수 표시, 8방향 뒤집기, 자동 패스, 승패·무승부 판정, 새 게임을 지원합니다. AI·온라인 대전·계정·저장·무르기·타이머는 범위에 포함하지 않습니다.
 
+배포 주소: https://othello-nu-blush.vercel.app/ (`main` 브랜치에 푸시하면 Vercel이 자동 배포합니다)
+
 ## 설치와 실행
 
 프로젝트 기준 환경은 Node.js **24.12.0**, npm **11.6.2**입니다. 지원 범위는 `package.json`, 기준 Node 버전은 `.node-version`에 기록합니다. Windows에서는 PowerShell 실행 정책의 영향을 피하려고 아래처럼 `npm.cmd`를 사용합니다. 다른 환경에서는 `npm`으로 실행합니다.
