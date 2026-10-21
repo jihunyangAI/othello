@@ -1,0 +1,11 @@
+node_modules/
+dist/
+.npm-cache/
+.playwright-browsers/
+.verification-install/
+playwright-report/
+test-results/
+.omc/
+*.log
+.env
+.env.*
